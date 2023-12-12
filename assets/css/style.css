@@ -144,3 +144,13 @@
     }
 
     /*end of css reset*/
+
+    body {
+        font-family: "Lato", sans-serif;
+    }
+
+    nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
