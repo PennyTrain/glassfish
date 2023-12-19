@@ -143,14 +143,87 @@
         content: none;
     }
 
-    /*end of css reset*/
+    /*end of css reset*/    
 
     body {
         font-family: "Lato", sans-serif;
+        background-color: #D3D9D8;
+        border-color: #8C1D14;
     }
 
-    nav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+    .topnav {
+        overflow: hidden;
+        background-color: #D3D9D8;
+        position: relative;
+        border: 4px solid #8C1D14;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 50px;
+        display: block;
+        background-color: #8C1D14;
+      }
+      
+      .topnav a.icon {
+        background: #8C1D14;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #E06666;
+        color: black;
+      }
+      
+      .active {
+        color: white;
+      }
+
+    .logo {
+        background-image: url(../images/project-imgs/sushi-logo.png);
+        height: 5rem;
+        width: 11rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #8C1D14;
     }
+
+    footer {
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; /* Center text horizontally */
+      background-color:#8C1D14;
+      left: 0;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+  }
+
+  footer div {
+      display: flex;
+  }
+
+  footer a {
+      margin: 0 10px; /* Adjust the margin as needed */
+      text-decoration: none;
+      padding-left: 40px;
+      padding-right: 40px;
+      color: white; /* Adjust the color as needed */
+  }
+
+   footer a:hover {
+    color: black;
+    text-decoration: none;
+   }
