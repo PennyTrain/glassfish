@@ -98,12 +98,12 @@
     mark,
     audio,
     video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
     }
 
     /* HTML5 display-role reset for older browsers */
@@ -118,84 +118,112 @@
     menu,
     nav,
     section {
-        display: block;
+      display: block;
     }
 
     body {
-        line-height: 1;
+      line-height: 1;
     }
 
     ol,
     ul {
-        list-style: none;
+      list-style: none;
     }
 
     blockquote,
     q {
-        quotes: none;
+      quotes: none;
     }
 
     blockquote:before,
     blockquote:after,
     q:before,
     q:after {
-        content: '';
-        content: none;
+      content: '';
+      content: none;
     }
 
-    /*end of css reset*/    
+    /*end of css reset*/
 
     body {
-        font-family: "Lato", sans-serif;
-        background-color: #D3D9D8;
-        border-color: #8C1D14;
+      font-family: "Lato", sans-serif;
+      background-color: #D3D9D8;
+      border-color: #8C1D14;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
     }
 
     .topnav {
-        overflow: hidden;
-        background-color: #D3D9D8;
-        position: relative;
-        border: 4px solid #8C1D14;
-      }
-      
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 50px;
-        display: block;
-        background-color: #8C1D14;
-      }
-      
-      .topnav a.icon {
-        background: #8C1D14;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .topnav a:hover {
-        background-color: #E06666;
-        color: black;
-      }
-      
-      .active {
-        color: white;
-      }
+      overflow: hidden;
+      background-color: #A99E98;
+      position: relative;
+      border: 4px solid #8C1D14;
+    }
+
+    .topnav #myLinks {
+      display: none;
+    }
+
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 30px;
+      display: block;
+      text-align: center;
+      background-color: #8C1D14;
+    }
+
+    .topnav a.icon {
+      background: #8C1D14;
+      display: block;
+      position: absolute;
+      right: 0;
+      font-size: 50px;
+      top: 0;
+    }
+
+    .topnav a:hover {
+      background-color: #E06666;
+      color: black;
+    }
+
+    .active {
+      color: white;
+    }
 
     .logo {
-        background-image: url(../images/project-imgs/sushi-logo.png);
-        height: 5rem;
-        width: 11rem;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #8C1D14;
+      background-image: url(../images/project-imgs/sushi-logo.png);
+      height: 5rem;
+      width: 11rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #8C1D14;
+    }
+
+    .homepage-image {
+      background-image: url(../images/project-imgs/sushi-pallete.png);
+      margin: 0 auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #8C1D14;
+      border: 4px solid #8C1D14;
+      height: 25em;
+      width: 35rem;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .home-title {
+      font-family: "Lato", sans-serif;
+      font-size: 44px;
+      text-align: center;
+      padding: 1rem;
     }
 
     footer {
@@ -203,27 +231,70 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center; /* Center text horizontally */
-      background-color:#8C1D14;
+      text-align: center;
+      /* Center text horizontally */
+      background-color: #A99E98;
+      border: 4px solid #8C1D14;
       left: 0;
       bottom: 0;
       position: fixed;
       width: 100%;
-  }
+    }
 
-  footer div {
+    footer div {
       display: flex;
-  }
+    }
 
-  footer a {
-      margin: 0 10px; /* Adjust the margin as needed */
+    footer a {
+      margin: 0 10px;
+      /* Adjust the margin as needed */
       text-decoration: none;
       padding-left: 40px;
       padding-right: 40px;
-      color: white; /* Adjust the color as needed */
-  }
+      font-size: 1.5rem;
+      color: white;
+      /* Adjust the color as needed */
+    }
 
-   footer a:hover {
-    color: black;
-    text-decoration: none;
-   }
+    footer a:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+    .drinks-image {
+      background-image: url(../images/project-imgs/drinks-menu.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .specials-image {
+      background-image: url(../images/project-imgs/specials-menu.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu-image {
+      background-image: url(../images/project-imgs/main-menu.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .dessert-image {
+      background-image: url(../images/project-imgs/dessert-menu.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .selection-container {
+      border: 4px solid #8C1D14;
+      width: 80%;
+    }
+
+    .image-selection {
+      width: 60%;
+      height: 6rem;
+    }
